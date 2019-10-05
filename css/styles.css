@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  width: 100vw;
+  font-family: "Open Sans", sans-serif;
+  background-color: #FFFFFF;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+main#sitemain {
+  width: 100vw;
+  height: 100vh;
+}
+
+video#video, canvas {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
